@@ -1,5 +1,5 @@
 loadStrings({
-"electionTitle": "نتائج انتخابات الرئاسة المصرية 2012",
+"electionTitle": "نتائج الاستفتاء على مشروع الدستور المصري 2012",
 "allCandidates": "جميع المرشحين", 
 "allCandidatesShort": "All", 
 "automaticUpdate": "هذه البيانات يتم تحديثها تلقائيا", 

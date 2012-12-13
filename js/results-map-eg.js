@@ -1359,7 +1359,8 @@ function nationalEnabled() {
 					'<div id="election-title" class="title-text">',
 						//geo.nation ? geo.nation.name : geo.district.name,
 						// geo.name,
-						'<img src="images/logo.png" style="width: 250px;" />',
+						// '<img src="images/logo.png" style="width: 250px;" />',
+						'نتائج الاستفتاء على مشروع الدستور المصري 2012',
 					'</div>',
 					'<div id="election-date-row" class="" style="margin-bottom:8px; position:relative;">',
 						'<div id="election-date" class="subtitle-text" style="float:left;">',
@@ -1380,8 +1381,8 @@ function nationalEnabled() {
 				'</div>',
         '<div class="faint-text" style="padding:4px 8px 0;">',
           'automaticUpdate'.T(),
-          '<p>للذهاب للنسخة الكاملة من الموقع <a href="http://www.elections.eg/index.php" target="_parent">اضغط هنا</a></p>',
-          '<p>جميع الحقوق محفوظة للجنة الانتخابات الرئاسية 2012</p>',
+          '<p>للذهاب للنسخة الكاملة من الموقع <a href="http://www.elections.eg/" target="_parent">اضغط هنا</a></p>',
+          '<p>جميع الحقوق محفوظة للجنة العليا للانتخابات 2012</p>',
         '</div>',
 			'</div>'
 		);
@@ -1394,16 +1395,16 @@ function nationalEnabled() {
 		var selected = currentCandidate ? '' : ' selected';
 		return S(
 			'<tr class="legend-candidate', selected, '" id="legend-candidate-top">',
-				'<td class="left">',
-					'<div class="legend-candidate">',
-						formatSpanColorPatch( colors, 2 ),
-					'</div>',
-				'</td>',
-				'<td colspan="3" class="right">',
-					'<div class="legend-candidate">',
-						'allCandidates'.T(),
-					'</div>',
-				'</td>',
+				// '<td class="left">',
+					// '<div class="legend-candidate">',
+						// formatSpanColorPatch( colors, 2 ),
+					// '</div>',
+				// '</td>',
+				// '<td colspan="4" class="right">',
+					// '<div class="legend-candidate">',
+						// // 'allCandidates'.T(),
+					// '</div>',
+				// '</td>',
 			'</tr>'
 		);
 	}
@@ -1466,13 +1467,13 @@ function nationalEnabled() {
 		var pct = formatPercent( candidate.vsAll );
 		return S(
 			'<tr class="legend-candidate', cls, '" id="legend-candidate-', candidate.id, '">',
-				'<td class="left">',
-					election.photos ? S(
-						'<div style="margin:0;">',
-							formatCandidateIcon( candidate, 32 ),
-						'</div>'
-					) : '',
-				'</td>',
+				// '<td class="left">',
+					// election.photos ? S(
+						// '<div style="margin:0;">',
+							// formatCandidateIcon( candidate, 32 ),
+						// '</div>'
+					// ) : '',
+				// '</td>',
 				'<td>',
 					'<div class="candidate-name" style="',
 								election.photos ? '' : 'margin-top:4px; margin-bottom:4px;',
