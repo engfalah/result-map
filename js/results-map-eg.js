@@ -1383,6 +1383,7 @@ function nationalEnabled() {
           'automaticUpdate'.T(),
           '<p>للذهاب للنسخة الكاملة من الموقع <a href="http://www.elections.eg/" target="_parent">اضغط هنا</a></p>',
           '<p>جميع الحقوق محفوظة للجنة العليا للانتخابات 2012</p>',
+          '<a href="http://www.espace.com.eg" target="_blank"><img src="images/espace-logo.png" width="75" title="تم التطوير بواسطة eSpace" alt="تم التطوير بواسطة eSpace" /></a>',
         '</div>',
 			'</div>'
 		);
